@@ -1,7 +1,8 @@
 #!/bin/bash
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
-
+git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 # 基本不需要添加啥插件了,我搜集了各位大神的插件都集成一个软件包直接打入源码里面了
 # 要了解增加了什么东西，就到我的专用软件包里面看看看吧，如果还是没有你需要的插件，请不要一下子就拉取别人的插件包
 # 相同的文件都拉一起，因为有一些可能还是其他大神修改过的容易造成编译错误的
