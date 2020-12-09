@@ -26,9 +26,9 @@ on:
         default: 'release-actions'
 
 
-#定时触发开始编译(开启定时编译请先确认SSH处在关闭状态,要不然SSH没人管,会卡SSH编译失败)
+#定时触发开始编译(开启定时编译请先确定SSH处在关闭状态,要不然SSH没人管,会卡SSH编译失败)
   schedule:
-    - cron: 0 8 */5 * *
+    - cron: 0 16 * * *
 
 
 #点☆Star触发开始编译
