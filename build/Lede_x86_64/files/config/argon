@@ -1,0 +1,11 @@
+
+config global
+	option save '保存更改'
+	option transparency '0.1'
+	option blur '1'
+	option dark_primary '#FF7F00'
+	option transparency_dark '0.1'
+	option blur_dark '1'
+	option primary '#FF7F00'
+	option mode 'light'
+
