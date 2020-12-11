@@ -10,8 +10,12 @@ config global
 	option up_china_dns 'default'
 	option dns_mode 'pdnsd'
 	option up_trust_pdnsd_dns 'tcp'
-	option dns_forward '208.67.222.222'
 	option tcp_node1 '3f6133c415e342db95376d1a6a514fae'
+	option close_log_tcp_1 '0'
+	option close_log_udp_1 '0'
+	option loglevel 'warning'
+	option trojan_loglevel '2'
+	option dns_forward '8.8.4.4'
 
 config global_haproxy
 	option balancing_enable '0'
@@ -52,6 +56,7 @@ config global_app
 	option kcptun_client_file '/usr/bin/kcptun-client'
 	option brook_file '/usr/bin/brook'
 	option trojan_go_latest 'https://api.github.com/repos/peter-tank/trojan-go/releases/latest'
+	option xray_file '/usr/bin/xray'
 
 config global_subscribe
 	option subscribe_proxy '0'
